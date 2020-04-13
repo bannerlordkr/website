@@ -20,40 +20,9 @@ script: index
                 현재는 얼리 엑세스 버전의 번역 검수 기간입니다.<br/>
                 한글 패치의 <strong>무단 사용 및 도용, 재배포</strong>를 금합니다.
             </p>
-            <a href="/assets/files/patch.zip" class="btn-orange" id="download">다운로드</a>
-            <a href="https://docs.google.com/document/d/1Obu7cgOSDdkihmRr6zdCgik6YAcfddbdT9gkLStZVn0/edit"
-               class="btn-orange" id="howto" target="_blank">검수방법</a>
+            <a href="https://bannerlord.page/assets/files/MBKoreanFont.zip" class="btn-orange" id="download">다운로드</a>
         </section>
     </div>
-
-    <article class="news-container">
-        <div class="title-wrap">
-            <h2 class="news-title">News and Updates</h2>
-            <a href="/news" class="btn-link">See All</a>
-        </div>
-
-        <ul class="news-list">
-            {% for post in site.posts %}
-                {% if forloop.index <= 3 %}
-                    <li>
-                        <a href="{{ post.url }}">
-                            <div class="list-image-wrap">
-                                <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
-                            </div>
-
-                            <div class="list-info-wrap">
-                                <h3 class="list-title">{{ post.title }}</h3>
-                                <span class="list-date">{{ post.date | date_to_string }}</span>
-                                <!--<div class="list-text"></div>-->
-                            </div>
-                        </a>
-                    </li>
-                {% else %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </article>
 
     <section class="main-container">
         <div class="container">
@@ -115,4 +84,32 @@ script: index
             <a href="#" class="btn-show-text btn-orange">UNDERSTAND</a>
         </div>
     </section>
+
+    <article class="news-container">
+        <div class="title-wrap">
+            <h2 class="news-title">News and Updates</h2>
+            <a href="/news" class="btn-link">See All</a>
+        </div>
+
+        <ul class="news-list">
+            {% for post in site.posts %}
+            {% if forloop.index <= 3 %}
+            <li>
+                <a href="{{ post.url }}">
+                    <div class="list-image-wrap">
+                        <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+                    </div>
+
+                    <div class="list-info-wrap">
+                        <h3 class="list-title">{{ post.title }}</h3>
+                        <span class="list-date">{{ post.date | date_to_string }}</span>
+                    </div>
+                </a>
+            </li>
+            {% else %}
+            {% break %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </article>
 </main>
