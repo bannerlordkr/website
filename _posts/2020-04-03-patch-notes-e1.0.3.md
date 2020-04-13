@@ -7,6 +7,7 @@ title: 패치 노트 e1.0.3
 date: 2020-04-03 00:00:00 +0900
 author: IT다윈(m960****)
 source: https://cafe.naver.com/warband/247435
+comments: true
 ---
 
 ## 버전

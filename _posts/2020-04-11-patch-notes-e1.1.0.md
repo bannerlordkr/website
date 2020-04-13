@@ -7,6 +7,7 @@ title: 패치 노트 e1.1.0
 date: 2020-04-11 21:00:00 +0900
 author: 맥 아더왕(psy2****)
 source: https://cafe.naver.com/warband/250508
+comments: true
 ---
 
 # 머리말

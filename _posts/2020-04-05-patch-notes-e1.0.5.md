@@ -7,6 +7,7 @@ title: 패치 노트 e1.0.5
 date: 2020-04-05 00:00:00 +0900
 author: 임프술사(9xlc****)
 source: https://cafe.naver.com/warband/248204
+comments: true
 ---
 
 ## 버전

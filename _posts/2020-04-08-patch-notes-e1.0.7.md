@@ -7,6 +7,7 @@ title: 패치 노트 e1.0.7
 date: 2020-04-08 00:00:00 +0900
 author: jhs0620(jhee****)
 source: https://cafe.naver.com/warband/249356
+comments: true
 ---
 
 ## 버전

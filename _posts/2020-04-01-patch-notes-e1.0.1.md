@@ -7,6 +7,7 @@ title: 패치 노트 e1.0.1
 date: 2020-04-01 00:00:00 +0900
 author: Penguinscanfly(zld1****)
 source: https://cafe.naver.com/warband/246662
+comments: true
 ---
 
 ## 버전

@@ -7,6 +7,7 @@ title: 패치 노트 e1.0.6
 date: 2020-04-07 00:00:00 +0900
 author: panda3332(leo1****)
 source: https://cafe.naver.com/warband/249102
+comments: true
 ---
 
 ## 버전

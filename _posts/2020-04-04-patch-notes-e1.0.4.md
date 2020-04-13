@@ -7,6 +7,7 @@ title: 패치 노트 e1.0.4
 date: 2020-04-04 00:00:00 +0900
 author: 토보에(cami****)
 source: https://cafe.naver.com/warband/247802
+comments: true
 ---
 
 ## 버전
