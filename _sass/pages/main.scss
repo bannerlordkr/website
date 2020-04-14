@@ -86,6 +86,7 @@
         }
 
         .btn-link{
+            @include margin(left 20px);
             float: right;
             font-size: 18px;
             line-height: 100%;
