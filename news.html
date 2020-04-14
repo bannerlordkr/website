@@ -12,7 +12,7 @@ style: news
         <h2 class="hidden">News</h2>
 
         <ul class="news-list">
-            {% for post in site.posts %}
+            {% for post in site.categories.news %}
                 <li>
                     <a href="{{ post.url }}">
                         <div class="list-image-wrap">
@@ -22,7 +22,6 @@ style: news
                         <div class="list-info-wrap">
                             <h3 class="list-title">{{ post.title }}</h3>
                             <span class="list-date">{{ post.date | date_to_string }}</span>
-                            <!--<div class="list-text"></div>-->
                         </div>
                     </a>
                 </li>
