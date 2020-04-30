@@ -5,7 +5,7 @@ categories: news patchnote
 thumbnail: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/26623866/d2c203d01b27d0e79665b606d246db7e6d8a1e19.png
 title: 패치 노트 e1.2.1 & 베타 핫픽스
 date: 2020-04-26 00:00:00 +0900
-author: 구글 번역
+author: Google Translate
 source: https://steamcommunity.com/ogg/261550/announcements/detail/2199388922826598385
 comments: true
 ---
