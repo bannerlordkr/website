@@ -31,7 +31,6 @@ github_username:  kimchanhyung98
 google_analytics: "UA-163179069-1"
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 sass:
